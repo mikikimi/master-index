@@ -36,7 +36,7 @@ body {
   display: none;
 }
 
-.group-title.active + .content {
+.group-title.active+.content {
   display: block;
 }
 
@@ -93,4 +93,32 @@ a,
 a:hover,
 a:visited {
   color: #000;
+}
+
+
+@media screen and (max-width: 560px) {
+  body {
+    font-size: 14px;
+  }
+
+  .main-title {
+    font-size: 25px;
+  }
+
+  .group-title {
+    font-size: 16px;
+    margin: 15px 0 25px;
+  }
+
+  .list-title {
+    font-size: 16px;
+  }
+
+  .list-heading {
+    margin-bottom: 20px;
+  }
+
+  .list li {
+    width: 100%;
+  }
 }
